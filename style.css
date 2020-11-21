@@ -1,0 +1,257 @@
+	body {
+ 		margin: 0;
+  		padding: 0;
+  		width: 100%;
+  		height: 100%;
+  		background-image: url("img/BG.png");
+  		background-color: #212121;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  		display: block;
+}
+#card {
+        background: #fbfbfb;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+		position: absolute;
+		width: 652px;
+		height: 531px;
+		left: 357px;
+		top: 60px;
+}
+
+img {
+ 		max-width: 100%;
+  		height: auto;
+}
+
+#helo-underline {
+      background: #212121;
+      height: 2px;
+      margin: 1.2rem auto 0 auto;
+      width: 89px;
+      margin-left: 80px;
+      margin-top: -10px;
+}
+#helo { 
+		font-family: MV Boli;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 23px;
+    margin-left: 80px;
+    margin-top: 50px;
+/* identical to box height */
+
+
+		color: #212121;
+}
+
+#sosmed-card {
+   background: #212121;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        position: absolute;
+        width: 266px;
+        height: 124px;
+        margin-left: 48px;
+        margin-top: 20px;
+}
+
+#skill-card {
+     background: #212121;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        position: absolute;
+        width: 266px;
+        height: 227px;
+        margin-left: 48px;
+        margin-top: 170px;
+}
+
+#pp {
+        background: url(img/IMG_20200310_064859.jpg);
+        mix-blend-mode: normal;
+        border-radius: 10px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        position: absolute;
+        width: 266px;
+        height: 197px;
+        margin-left: 338px;
+        margin-top: 20px;
+
+}
+
+#boutme-card {
+    background: #212121;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        position: absolute;
+        width: 266px;
+        height: 227px;
+        margin-left: 338px;
+        margin-top: 170px;
+}
+
+#boutme-text-title {
+    color: #ffffff;
+    font-family: MV Boli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+
+#boutme-text {
+    color: #ffffff;
+    font-family: MV Boli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    width: 210px;
+    height: 57px;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#dot-btn2 {
+  
+    width: 48px;
+    height: 49px;  
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+#gh {
+    width: 32px;
+    height: 32px;
+}
+#dot-btn1 {
+    width: 48px;
+    height: 49px;  
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 35px;
+}
+#dot-btn {
+    width: 48px;
+    height: 49px;  
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+.meter { 
+  width: 200px;
+  height: 4px;  /* Can be anything */
+  margin-left: 20px;
+  margin-top: -10px;
+  position: relative;
+  background: #FFBECE;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  padding: 2px;
+  box-shadow: inset 0 -1px 1px #ffffff;
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.meter1 { 
+  width: 200px;
+  height: 4px;  /* Can be anything */
+  margin-left: -2px;
+  margin-top: -10px;
+  position: relative;
+  background: #FFBECE;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  padding: 2px;
+  box-shadow: inset 0 -1px 1px #ffffff;
+}
+
+.meter1 > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.red > span {
+  background-color: #212121;
+  background-image: #212121;
+}
+
+#skill-title { 
+    font-family: MV Boli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 110px;
+    margin-top: 10px;
+/* identical to box height */
+
+
+    color: #ffffff;
+}
+
+#skill1 { 
+    font-family: MV Boli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 20px;
+    margin-top: 10px;
+/* identical to box height */
+
+
+    color: #ffffff;
+}
+
+#skill2 { 
+    font-family: MV Boli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: -2px;
+    margin-top: 20px;
+/* identical to box height */
+
+
+    color: #ffffff;
+}
